@@ -1,0 +1,11 @@
+@media print{
+    .navbar,.returnFHpagos
+    {
+        display:none;
+    }
+
+    .factura-data-container
+    {
+        width: 100%;
+    }
+}

@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    user-select: none;
+}
+
+.form_container {
+    background-color: #f0f0f0;
+    height: 120vh;
+}
+
+.form_container .desing {
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    -webkit-background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-bottom-left-radius: 100px;
+    position: relative;
+    color: white;
+    font-family: txt;
+    margin-bottom: 25px;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.action {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.form input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: txt;
+    font-weight: bolder;
+    padding-left: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.form input:focus {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    -webkit-box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: rgb(124, 123, 123);
+}
+
+.form button,
+.btnStart {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    font-family: bebasneue;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.form .hasOne {
+    margin: auto;
+    margin-top: 10px;
+    font-family: txt;
+    font-weight: bolder;
+}
+
+.form .hasOne a {
+    color: #0e6a88;
+}
+
+.forgot_pass {
+    font-family: txt;
+    text-align: right;
+    font-weight: bold;
+    color: #0e6a88;
+    margin-bottom: 40px;
+}
+
+#exist {
+    color: red;
+    font-family: txt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mailSent {
+    font-size: 30px;
+    font-family: txt;
+    text-align: center;
+}
+
+.emailImg {
+    width: 10%;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+@media screen and (min-width:720px) {
+    .form {
+        width: 30%;
+    }
+}

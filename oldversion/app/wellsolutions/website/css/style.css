@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+*::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: unset;
+}
+
+*::-webkit-scrollbar-track
+{
+    width: 10px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb
+{
+    width: 10px;
+    background-color: #e0dedf;
+    border-radius: 10px;
+}
+
+img
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* -----------------------------header */
+.logo
+{
+    width: 15%;
+}
+.logo img
+{
+    width: 60%;
+}
+.top_nav
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-shadow: 1px 1px 3px #3d3d3d85;
+     
+    background-color: #fff;
+     
+
+}
+.sm
+{
+    width: 66%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_collapse
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav_link
+{
+    color: #c21111;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding: 12px 10px ;
+    display: block;
+    transition: .5s;
+}
+
+.nav_link:hover
+{
+    border-bottom: 1px solid #c21111;
+}
+
+.toggle
+{
+    display: none;
+}
+
+/*s-------------------------- footer */
+
+footer
+{
+    box-shadow: 1px 1px 3px #3d3d3d85;
+    padding: 15px;
+    
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.info_container
+{
+    width: 100%;
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+
+.info
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(53, 53, 46, 0.2);
+    padding: 20px;
+    font-size: 16px;
+    width: 40%;
+    color: black;
+    box-shadow: 1px 1px 3px #3d3d3d85;
+    margin-bottom: 20px;
+
+     
+}
+.info a
+{
+    color: black;
+    padding: 10px;
+}
+.redes
+{
+    color: black;
+}
+ 
+
+/* ------------------------------------------------------- */
+
+/* ------------------------------------------------------- */
+
+/* ------------------------------------------------------- */
+
+/* ---------------------CONTENIDO---------------------------------- */
+
+.all_container
+{
+    width: 90%;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+
+
+}
+
+.jumbutron
+{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    background-color: #c21111;
+    color: white;
+  
+}
+
+.main_content
+{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.content
+{
+    width: 30%;
+    background-color: #a7a7a741;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px #3d3d3d85;
+    transition: .2s;
+
+}
+
+.content-2
+{
+    width: 45%;
+    background-color: #a7a7a741;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px #3d3d3d85;
+    transition: .2s;
+}
+
+
+.content:hover,.content-2:hover
+{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #3d3d3d85;
+
+}
+
+.cont_header
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7b7b7b;
+}
+
+.cont_body
+{
+    text-align: justify;
+}
+
+.advantage
+{
+    width: 95%;
+    margin: auto;
+    background-color: #c21111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 3px #3d3d3dc4;
+    
+
+}
+
+.advantage
+a
+{
+    display: block;
+    color: #c21111;
+    background-color: #fff;
+    padding: 10px 8px ;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+/* ----------------------------pricing */
+/* ----------------------------pricing */
+/* ----------------------------pricing */
+
+.pricing
+{
+    width: 50%;
+    background-color: #a7a7a741;
+    border-radius: 5px;
+  
+    box-shadow: 1px 1px 3px #3d3d3d85;
+    transition: .2s;
+}
+
+.pricing 
+.cont_header
+{
+    font-size: 50px;
+    background-color: #c21111;
+    color: #fff;
+    padding: 10px;
+}
+
+.pricing .cont_body
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+ 
+}
+
+
+.pricing .cont_body .fa-check
+{
+    color: #22bb33;
+}
+
+.cont_footer
+a
+{
+    display: block;
+    color: #c21111;
+    border: 1px solid #c21111;
+    padding: 10px 8px ;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+/* Contacto */
+
+
+.contact
+{
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/header.png);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    position: relative;
+    
+     
+}
+
+.contact-text
+{
+    width: 40%;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+
+.inner_contact
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    
+    border-radius: 10px;
+    
+}
+
+.phone
+{
+    width: 30%;
+     
+     padding: 10px;
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: 18px;
+      color: #464646;
+}
+
+ 
+.mail
+{
+    width: 65%;
+    margin: auto;
+    color: #464646;
+    padding: 10px;
+
+   
+}
+.mail
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail
+input
+{
+   height: 40px;
+
+   border-radius: 5px;
+   border: 1px solid rgb(184, 184, 184);
+   padding-left: 10px;
+   font-size: 18px;
+   color: rgb(82, 82, 82);
+   font-family: 'Oswald', sans-serif;
+   outline: none;
+
+}
+
+.mail
+textarea
+{
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid rgb(184, 184, 184);
+    font-size: 18px;
+    outline: none;
+}
+
+.btn
+{
+    width: 40%;
+    margin: auto;
+    border: none;
+    background-color: #c21111;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 8px;
+    cursor: pointer;
+}

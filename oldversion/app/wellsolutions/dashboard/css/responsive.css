@@ -1,0 +1,114 @@
+@media only screen and (max-width:720px)
+{
+   form
+   {
+       width: 90%;
+       margin: auto;
+   }
+
+   .noExiste
+   {
+       width: 90%;
+       margin: auto;
+   }
+   .login-container
+   {
+       width: 100%;
+   }
+   .logo img
+   {
+       width: 20%;
+   }
+
+   .login
+   {
+       width: 90%;
+       margin: auto;
+   }
+   .side_nav
+   {
+       width: 0%;
+       overflow-x: hidden;
+       transition: .5s  ;
+       height: 92vh;
+    
+   }
+
+
+ 
+
+   .container
+   {
+       width: 100%;
+       overflow-x: hidden;
+       margin: auto;
+    
+       
+       
+   }
+
+   .toggle
+   {
+       display: block;
+   }
+   .toggleL
+   {
+       display: block;
+   }
+
+   .show
+   {
+    width: 100%;
+   }
+
+   .hidden
+   {
+    width: 0%;
+   }
+
+
+   .client_status a h2
+   {
+       font-size: 16px;
+   }
+    
+   .status
+   {
+       padding: 5px;
+   }
+   .app_users
+   {
+       overflow-x: hidden;
+   }
+   .users
+   {
+      
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+      
+   }
+
+   .actions
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: unset;
+        width: 85%;
+        
+        
+    }
+
+    .form-register
+    {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .delete
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+}

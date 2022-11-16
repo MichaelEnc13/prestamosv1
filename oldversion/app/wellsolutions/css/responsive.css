@@ -1,0 +1,244 @@
+@media only screen and (max-width:720px)
+{
+
+    .clt
+    {
+    width: 90%;
+    }
+    
+    .eyu
+    {
+        display:none;
+    }
+    
+    .dropDown
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 10px;
+        width: 70%;
+    }
+
+    .show
+   {
+    display: block;
+
+   }
+   
+   .user-s
+{
+    display:block;
+}
+
+.user-w
+{
+    display:none;
+}
+
+   
+   .exit-s
+{
+    display:block;
+}
+    .innerText
+    {
+        display: none;
+    }
+
+    .navbar-expanded
+    {
+        display: unset;
+        position: fixed;
+        bottom: 0px;
+       
+        width: 100%;
+         
+    }
+
+    .logo img
+    {
+        display: block;
+        width: 50px;
+    }
+
+    .list-logo
+    {
+        display: none;
+    }
+
+    .nav-collapsed
+    {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .exit
+    {
+        display: none;
+    }
+
+    .nav-list
+    {
+        border-bottom:  1px solid #c4001d;
+    }
+
+    .nav-link
+    {
+        font-size: 25px;
+        
+    }
+
+    .form-container
+    {
+        width: 100%;
+        margin: auto;
+        height: 80vh;
+        overflow-y: scroll;
+        
+    }
+
+    .form-container form{
+        width: 100%;
+    }
+
+    .form-container form label
+    {
+        font-size: 18px;
+
+    }
+
+    .form-container form input{
+       
+        height: 40px;
+        font-size: 20px;
+       
+
+    }
+
+    /* clientes */
+
+    .cliente-container
+    {
+        width: 98%;
+        padding: 10px;
+
+        margin: auto;
+    }
+    .clientes
+    {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+         
+
+    }
+
+    /* prestamos */
+
+    .prestamos-container
+    {
+        height: 85vh;   
+        overflow-y: scroll;
+      
+        
+    }
+    
+    .clientes-con-prestamos,.clientes-prestamos-body
+    {
+        flex-direction:column;
+    }
+    
+    .clientes-prestamos-body a
+    {
+        width:95%;
+        margin:auto;
+    }
+
+    .addpay-btn
+    {
+        width: 95%;
+        margin: auto;
+    }
+    .prestamos
+    {
+        width: 100%;
+    }
+
+    .sureDelete
+    {
+        font-size: 18px;
+        width: 50%;
+    }
+    .saldar
+    {
+        width: 95%;
+        margin: auto;
+    }
+
+    .history-container
+    {
+        width: 93%;
+        background-color: #eeeeee;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .factura-data-container
+    {
+        width: 95%;
+    }
+    .no-prestamos a
+    {
+        width: 80%;
+    }
+
+    .inner-summary-container
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+
+.summary-data
+{
+    
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.confi-container
+{
+    width: 95%;
+    margin: auto;
+}
+
+.pay-container
+{
+    width: 95%;
+}
+
+
+.pagar_deuda
+{
+    width: 95%;
+    margin: auto;
+}
+
+.pay_ways
+{
+    display:flex;
+    flex-direction:column;
+    
+}
+}
+
+@media only screen and (max-width:518px)
+{
+    .deudas
+    {
+        width: 100%;
+    }
+}

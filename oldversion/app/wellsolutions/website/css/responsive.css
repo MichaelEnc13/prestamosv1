@@ -1,0 +1,134 @@
+@media  only screen and (max-width:720px) 
+{
+    .all_container
+    {
+        width: 97%;
+        margin: auto;
+    }
+    .logo
+    {
+        width: 100%;
+    }
+
+    .logo img
+    {
+        width: 15%;
+    }
+
+    .sm
+    {
+        width: 100%;
+       
+    }
+    .top_nav
+    {
+        padding: 5px 10px 5px 10px;
+        flex-direction: column;
+    }
+    
+   
+    .nav_item
+    {
+        width: 100%;
+    }
+    
+    .nav_collapse
+    {
+        height: 0px;
+        
+        overflow-y: hidden;
+        flex-direction: column;
+        transition: .5s;
+    }
+
+    .collapsed
+    {
+        height: 280px;
+    }
+
+    .toggle
+    {
+        display: block;
+        font-size: 20px;
+        color: #747474;
+        background-color: unset;
+        border: 0.3px solid #747474;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+    }
+ 
+    /* footer */
+
+  .info_container
+    {
+        flex-direction: column;
+    }
+
+    .info
+    {
+        width: 100%;
+    }
+
+
+    /* --------------------- */
+    
+    /* --------------------- */
+    
+    /* --------------------- */
+    
+    /* ----------Content----------- */
+    .main_content
+    {
+        flex-direction: column;
+    }
+    .content,.content-2
+    {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    
+    .advantage
+    a
+    {
+       width: 95%; 
+       
+    }
+    .pricing,.pricing .cont_body
+    {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .contact-text
+    {
+        width: 95%;
+        margin: auto;
+        font-size: 30px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-52%,-50%);
+        border-radius: 5px;
+    }
+
+    .inner_contact
+    {
+        flex-direction: column;
+        padding: 0px;
+        
+    }
+
+
+    .phone,.mail
+    {
+        width: 100%;
+        margin: auto;
+        background-color: rgba(123, 123, 123, 0.118);
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: title;
+    src: url(fonts/title.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: bebasNeue;
+    src: url(fonts/BebasNeue.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: txt;
+    src: url(fonts/text.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(fonts/Lobster.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: firma;
+    src: url(fonts/Better_Grade.ttf);
+    font-display: swap;
+}

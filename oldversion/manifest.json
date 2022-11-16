@@ -1,0 +1,53 @@
+{
+    "lang": "DO-es",
+    "short_name": "Dotsell",
+    "name": "Dotsell: prestamos",
+    "icons": [{
+            "src": "./src/appIcon/icon-92.png",
+            "type": "image/png",
+            "sizes": "92x92"
+        },
+        {
+            "src": "./src/appIcon/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./src/appIcon/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "src/appIcon/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        }
+    ],
+    "start_url": "./",
+    "background_color": "#FFF",
+    "display": "fullscreen",
+    "scope": "./",
+    "orientation": "portrait",
+    "theme_color": "#FFF",
+    "shortcuts": [{
+        "name": "Dotsell: prestamos",
+        "short_name": "App de préstamos",
+        "url": "./index.php",
+        "icons": [{
+            "src": "src/appIcon/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        }, {
+            "src": "src/appIcon/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        }]
+    }],
+    "description": "Toda la administración de tu negocio de préstamo en un solo lugar",
+    "prefer_related_applications": true
+
+
+}

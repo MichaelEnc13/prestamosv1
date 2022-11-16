@@ -1,0 +1,42 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+#RewriteRule ^([a-z]+)/?$ $1.php [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+#RewriteRule ^([a-z]+)/?$ $1.html [NC]
+
+</IfModule>
+
+#prevenir acceso a los archivos .htaccess
+
+<files .htaccess>
+
+order allow,deny
+
+allow from all
+
+</files>
+
+ 
+#evitar el acceso a las carpetas.
+  #Options All -Indexes
+ #IndexIgnore *
+
+#errores
+
+ErrorDocument 403 /pdv2/errores/403/403.html
+ErrorDocument 404 /pdv2/errores/404/404.html
+
+#cambiar pagina por defecto
+
+ 
+RewriteCond %{HTTP_HOST} ^wellsolutions\.me$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wellsolutions\.me$
+RewriteRule ^prestamos\/?$ "https\:\/\/dotsell\.website\/prestamos" [R=301,L]
+
