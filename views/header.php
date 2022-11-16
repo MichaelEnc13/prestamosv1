@@ -1,4 +1,5 @@
 <?php
+$version = "1.0";
 clearstatcache(true);
 
   include "model/autoload.php";
@@ -51,7 +52,7 @@ clearstatcache(true);
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="stylesheet" href="src/text_font.css"  >
-      <link rel="stylesheet" href="src/app.css"  >
+      <link rel="stylesheet" href="src/app.css?version=<?php echo $version ?>"  >
       <link rel="manifest"   href="./manifest.json">
       <link rel="shortcut icon" href="src/appIcon/favicon.png" type="image/x-icon">
       <link rel="stylesheet" href="src/alertify.min.css">
